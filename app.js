@@ -1,7 +1,9 @@
-'use strict';
+/*'use strict';
+var name = prompt('Hey there! What is your name?');
+    alert('Welcome, ' + name + '! I hope you are ready for some silliness!');
 var age = prompt('Is Haley 24?');
 if (age.toUpperCase() === 'YES' || age.toUpperCase() ===  'Y') {
-        //alert('I sure am!');
+        alert('I sure am!');
     } 
 else if (age.toUpperCase() === 'NO' || age.toUpperCase() === 'N') {
      alert('Do you think I look old or something?');

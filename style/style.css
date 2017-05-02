@@ -1,6 +1,17 @@
+*{
+    text-align: center;
+    background-color: #DED5D3;
+}
 #benson {
     max-height: 500px;
     max-width: 500px;
-    
-
+}
+h2, h4 {
+    font-family: Verdana;
+}
+ul {
+    font-family: Arial;
+}
+div > p {
+    font-family: Arial;
 }
