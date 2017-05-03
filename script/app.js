@@ -56,3 +56,20 @@ else{
     alert('That is not a valid response. Please respond with YES/NO or Y/N.');
 }
 console.log('Is Haley obsessed with her dog, Benson Wigglepuff? ' + dog);
+
+var popsicle = 3;
+for (numberOfGuesses = 0; numberOfGuesses < 4; numberOfGuesses++) {
+    var popsicleAnswer = prompt('How many popsicles did Haley eat yesterday?')
+    popsicleAnswer = parseInt(popsicleAnswer)
+    if (popsicleAnswer === popsicle) {
+        alert('She sure did!')
+        break;   
+    } else if(popsicleAnswer > popsicle) {
+        alert('Too High')
+    } else {
+        alert('Too Low')
+    }
+}
+if (numberOfGuesses === 4) {
+    alert('You have run out of guesses!')
+}

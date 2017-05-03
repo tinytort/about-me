@@ -1,8 +1,17 @@
-*{
-    text-align: center;
+* {
+    /*text-align: center;*/
     background-color: #DED5D3;
 }
 #benson {
+    max-height: 250px;
+    max-width: 250px;
+    padding: 0px;
+    border-radius: 10000%;
+    overflow: hidden;
+    
+
+}
+#benson img {
     max-height: 500px;
     max-width: 500px;
 }
@@ -14,4 +23,4 @@ ul {
 }
 div > p {
     font-family: Arial;
-}
+
