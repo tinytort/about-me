@@ -1,5 +1,4 @@
 * {
-    /*text-align: center;*/
     background-color: white;
 }
 #benson {
@@ -10,7 +9,7 @@
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    
+ /*styles the shape of the image*/   
 
 }
 #benson img {
