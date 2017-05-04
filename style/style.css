@@ -1,6 +1,6 @@
 * {
     /*text-align: center;*/
-    background-color: #DED5D3;
+    background-color: white;
 }
 #benson {
     max-height: 250px;
@@ -8,6 +8,8 @@
     padding: 0px;
     border-radius: 10000%;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
     
 
 }
@@ -17,10 +19,13 @@
 }
 h2, h4 {
     font-family: Verdana;
+    background-color: #DED5D3;
+
 }
 ul {
     font-family: Arial;
 }
+
 div > p {
     font-family: Arial;
-
+}
