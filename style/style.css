@@ -2,12 +2,9 @@
     background-color: white;
 }
 
-body{
+body {
     display: 100%;
-}
-
-header {
-    margin: 30px;
+    padding: 70px;
 }
 
 #benson {
@@ -30,7 +27,7 @@ header {
     display: inline-block;
     /*margin-left: auto;
     margin-right: 30px;*/
-    margin: 10px 0px 10px 150px;
+    margin: 10px 0px 10px 80px;
     padding: 0px;
     border-style: none;
     font-family: 'Playfair Display' , serif;
@@ -41,22 +38,12 @@ header {
     list-style-type: none;
     display: inline;
     border-style: none;
-    margin: 20px 0px 20px 150px;
+    margin: 20px 0px 20px 175px;
     font-family: 'Raleway' , sans-serif;
     float: left;
+    cursor: crosshair;
 }
 
-/*h4 {
-    background-color: #DED5D3;
-
+.top_ten {
+    list-style-type: none;
 }
-
-ul {
-    font-family: Arial;
-}
-
-div > p {
-    font-family: Arial;
-   
-}
-*/
