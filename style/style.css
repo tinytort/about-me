@@ -6,6 +6,10 @@ body{
     display: 100%;
 }
 
+header {
+    margin: 30px;
+}
+
 #benson {
     max-height: 250px;
     max-width: 250px;
@@ -28,8 +32,18 @@ body{
     margin-right: 30px;*/
     margin: 10px 0px 10px 150px;
     padding: 0px;
+    border-style: none;
     font-family: 'Playfair Display' , serif;
-    font-size: 35px
+    font-size: 35px   
+}
+
+.Nav {
+    list-style-type: none;
+    display: inline;
+    border-style: none;
+    margin: 20px 0px 20px 150px;
+    font-family: 'Raleway' , sans-serif;
+    float: left;
 }
 
 /*h4 {
