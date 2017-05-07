@@ -1,6 +1,11 @@
 * {
     background-color: white;
 }
+
+body{
+    display: 100%;
+}
+
 #benson {
     max-height: 250px;
     max-width: 250px;
@@ -16,15 +21,28 @@
     max-height: 500px;
     max-width: 500px;
 }
-h2, h4 {
-    font-family: Verdana;
+
+#introline {
+    display: inline-block;
+    /*margin-left: auto;
+    margin-right: 30px;*/
+    margin: 10px 0px 10px 150px;
+    padding: 0px;
+    font-family: 'Playfair Display' , serif;
+    font-size: 35px
+}
+
+/*h4 {
     background-color: #DED5D3;
 
 }
+
 ul {
     font-family: Arial;
 }
 
 div > p {
     font-family: Arial;
+   
 }
+*/
